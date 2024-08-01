@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="main_container">
+        <h1>Age Calculator</h1>
+        <div id="input">
+            <label for="date_of_birth">Select Your Date of Birth:</label>
+            <input type="date" id="date_of_birth">
+        </div>
+        <div id="datalist">
+            <label for="gender">Choose your Gender:</label>
+            <input list="genders" id="gender">
+            <datalist id="genders">
+                <option value="Male"></option>
+                <option value="Female"></option>
+            </datalist>
+        </div>
+        <button id="calculate-btn">Calculate Age</button>
+        <div id="result">Result of Age</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
